@@ -1,0 +1,23 @@
+16:57:42 **** Incremental Build of configuration Debug for project EX78910 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "EX78910.elf" @"objects.list"   -mcpu=cortex-m3 -T"W:\LAB1_VXL\EX7\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EX78910.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EX78910.elf
+ 
+arm-none-eabi-size   EX78910.elf 
+arm-none-eabi-objdump -h -S  EX78910.elf  > "EX78910.list"
+arm-none-eabi-objcopy  -O ihex  EX78910.elf  "EX78910.hex"
+   text	   data	    bss	    dec	    hex	filename
+   5500	     20	   1572	   7092	   1bb4	EX78910.elf
+arm-none-eabi-objcopy  -O binary  EX78910.elf  "EX78910.bin"
+Finished building: default.size.stdout
+ 
+Finished building: EX78910.list
+ 
+Finished building: EX78910.hex
+Finished building: EX78910.bin
+ 
+ 
+
+16:57:44 Build Finished. 0 errors, 0 warnings. (took 1s.194ms)
+

@@ -1,0 +1,10 @@
+19:58:34 **** Incremental Build of configuration Debug for project EX1 ****
+make -j16 all 
+arm-none-eabi-size   EX1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4624	     20	   1572	   6216	   1848	EX1.elf
+Finished building: default.size.stdout
+ 
+
+19:58:34 Build Finished. 0 errors, 0 warnings. (took 284ms)
+

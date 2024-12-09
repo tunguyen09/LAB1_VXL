@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="h"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="count_hour"/>
+			<item value="count_minute"/>
+			<item value="count_second"/>
+			<item value="Green_Status_Group2"/>
+			<item value="Red_Status_Group2"/>
+			<item value="Yellow_Status_Group2"/>
+			<item value="Green_Count_Group2"/>
+			<item value="Green2"/>
+			<item value="Red_Count_Group2"/>
+			<item value="Yellow_Count_Group2 "/>
+			<item value="Green_Status_Group1"/>
+			<item value="Red_Status_Group1"/>
+			<item value="Yellow_Status_Group1"/>
+			<item value="Status_Yellow1"/>
+			<item value="Green_Count_Group1"/>
+		</list>
+		<list key="replacehistory">
+			<item value="h"/>
+			<item value="m"/>
+			<item value="s"/>
+			<item value="Status_Green2"/>
+			<item value="Status_Red2"/>
+			<item value="Status_Yellow2"/>
+			<item value="Green2"/>
+			<item value=""/>
+			<item value="Red2"/>
+			<item value="Yellow2"/>
+			<item value="Status_Green1"/>
+			<item value="Status_Red1"/>
+			<item value="Status_Yellow1"/>
+			<item value="Green1"/>
+			<item value="Red1"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="801"/>
+		<item key="DIALOG_Y_ORIGIN" value="217"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

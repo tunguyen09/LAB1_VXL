@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;UART_contact&apos;" deleteContents="false" description="Delete resource &apos;UART_contact&apos;" element1="/UART_contact" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1726973464000"/>&#x0A;<refactoring comment="Delete resource &apos;UART&apos;" deleteContents="false" description="Delete resource &apos;UART&apos;" element1="/UART" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1726973621965"/>
+</session>

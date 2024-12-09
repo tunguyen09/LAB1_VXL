@@ -1,0 +1,10 @@
+19:58:35 **** Incremental Build of configuration Debug for project EX4 ****
+make -j16 all 
+arm-none-eabi-size   EX4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5316	     20	   1572	   6908	   1afc	EX4.elf
+Finished building: default.size.stdout
+ 
+
+19:58:35 Build Finished. 0 errors, 0 warnings. (took 232ms)
+
